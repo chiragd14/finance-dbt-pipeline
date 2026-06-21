@@ -1,0 +1,501 @@
+transaction_id,transaction_date,merchant_name,category,amount,transaction_type,payment_method,account_name,notes
+TXN1061,2023-01-01,BP Gas,Transport,47.2,Debit,Zelle,Citi CC,
+TXN1350,2023-01-06,ChatGPT Plus,Subscriptions,20.36,Debit,ACH Transfer,UWCU Checking,
+TXN1047,2023-01-10,Trader Joe's,Groceries,62.74,Debit,ACH Transfer,Citi CC,
+TXN1139,2023-01-10,State Farm Renters,Insurance,21.6,Debit,Zelle,UWCU Savings,
+TXN1087,2023-01-13,Tax Refund,Income,263.32,Credit,ACH Transfer,BofA CC,reimbursable
+TXN1489,2023-01-13,Interest Income,Income,9.64,Credit,Cash,UWCU Checking,
+TXN1415,2023-01-15,Chipotle,Dining,17.38,Debit,Cash,Citi CC,
+TXN1163,2023-01-17,Chipotle,Dining,11.01,Debit,Cash,Citi CC,
+TXN1334,2023-01-17,Pick 'n Save,Groceries,47.62,Debit,Credit Card,Citi CC,
+TXN1372,2023-01-24,Interest Income,Income,3.42,Credit,Debit Card,UWCU Savings,
+TXN1369,2023-01-26,UW Health Copay,Healthcare,35.4,Debit,Credit Card,UWCU Checking,monthly
+TXN1078,2023-01-28,Costco,Groceries,76.28,Debit,Cash,UWCU Savings,
+TXN1422,2023-01-31,Lyft,Transport,15.44,Debit,Credit Card,Discover CC,
+TXN1256,2023-02-01,UW Health Copay,Healthcare,41.05,Debit,ACH Transfer,BofA CC,
+TXN1443,2023-02-01,ChatGPT Plus,Subscriptions,20.56,Debit,Zelle,UWCU Savings,
+TXN1154,2023-02-08,Lyft,Transport,12.32,Debit,Debit Card,Citi CC,
+TXN1209,2023-02-08,Nintendo eShop,Entertainment,17.86,Debit,Cash,UWCU Savings,
+TXN1113,2023-02-10,State Farm Renters,Insurance,20.41,Debit,Credit Card,UWCU Checking,
+TXN1086,2023-02-12,Lyft,Transport,23.23,Debit,Credit Card,Citi CC,
+TXN1187,2023-02-13,AT&T Wireless,Utilities,82.63,Debit,ACH Transfer,Citi CC,
+TXN1487,2023-02-13,AT&T Wireless,Utilities,61.06,Debit,Debit Card,Citi CC,
+TXN1366,2023-02-15,Best Buy,Shopping,388.38,Debit,ACH Transfer,BofA CC,
+TXN1425,2023-02-15,Caterpillar Payroll,Income,3273.37,Credit,Cash,Discover CC,
+TXN1317,2023-02-18,UWCU Transfer,Transfer,217.84,Debit,Zelle,Discover CC,
+TXN1313,2023-02-19,Chipotle,Dining,13.22,Debit,Debit Card,Citi CC,
+TXN1477,2023-02-20,AT&T Wireless,Utilities,59.61,Debit,ACH Transfer,UWCU Checking,
+TXN1035,2023-02-21,TJ Maxx,Shopping,84.36,Debit,Zelle,UWCU Savings,
+TXN1045,2023-02-22,Costco,Groceries,159.52,Debit,Credit Card,UWCU Checking,
+TXN1274,2023-02-22,Target,Shopping,72.42,Debit,Zelle,BofA CC,
+TXN1181,2023-02-23,McDonald's,Dining,6.3,Debit,Credit Card,Discover CC,
+TXN1420,2023-02-26,BP Gas,Transport,34.78,Debit,Debit Card,UWCU Checking,
+TXN1314,2023-02-27,Aldi,Groceries,31.71,Debit,Zelle,Discover CC,
+TXN1339,2023-02-27,Target,Shopping,28.27,Debit,Cash,Discover CC,
+TXN1459,2023-02-27,Panera Bread,Dining,8.14,Debit,Cash,UWCU Checking,
+TXN1305,2023-03-01,Walmart,Shopping,79.25,Debit,Cash,Discover CC,monthly
+TXN1288,2023-03-02,State Farm Auto,Insurance,133.05,Debit,Debit Card,Citi CC,routine
+TXN1434,2023-03-03,Discover Payment,Transfer,583.74,Debit,Credit Card,UWCU Checking,
+TXN1158,2023-03-04,WE Energies,Utilities,117.77,Debit,Cash,UWCU Checking,
+TXN1277,2023-03-05,Nintendo eShop,Entertainment,22.44,Debit,ACH Transfer,BofA CC,
+TXN1164,2023-03-07,UW Health Copay,Healthcare,37.83,Debit,Credit Card,BofA CC,
+TXN1102,2023-03-08,MG&E Electric,Utilities,106.16,Debit,Credit Card,UWCU Savings,
+TXN1446,2023-03-08,Panda Express,Dining,12.1,Debit,Debit Card,UWCU Checking,one-time
+TXN1488,2023-03-10,Pick 'n Save,Groceries,46.85,Debit,ACH Transfer,Discover CC,
+TXN1007,2023-03-13,Trader Joe's,Groceries,76.38,Debit,Credit Card,UWCU Savings,reimbursable
+TXN1125,2023-03-13,Lyft,Transport,16.8,Debit,Zelle,Discover CC,one-time
+TXN1472,2023-03-17,Caterpillar Payroll,Income,3288.47,Credit,ACH Transfer,Discover CC,routine
+TXN1107,2023-03-18,Local Bistro,Dining,35.77,Debit,Zelle,BofA CC,
+TXN1341,2023-03-18,AMC Theater,Entertainment,28.19,Debit,Zelle,UWCU Checking,
+TXN1085,2023-03-19,Target,Shopping,30.19,Debit,ACH Transfer,Citi CC,
+TXN1240,2023-03-20,TJ Maxx,Shopping,45.69,Debit,ACH Transfer,Discover CC,
+TXN1006,2023-03-22,TJ Maxx,Shopping,81.98,Debit,ACH Transfer,Citi CC,
+TXN1321,2023-03-22,ChatGPT Plus,Subscriptions,20.09,Debit,Debit Card,UWCU Checking,
+TXN1338,2023-03-24,Netflix,Entertainment,15.09,Debit,Cash,BofA CC,
+TXN1205,2023-03-28,Lyft,Transport,22.87,Debit,ACH Transfer,UWCU Savings,
+TXN1353,2023-03-28,Apartment Rent Madison,Rent,928.6,Debit,Debit Card,BofA CC,
+TXN1410,2023-03-28,McDonald's,Dining,9.6,Debit,Zelle,Discover CC,routine
+TXN1172,2023-03-29,Whole Foods,Groceries,100.84,Debit,ACH Transfer,UWCU Savings,
+TXN1365,2023-03-29,Trader Joe's,Groceries,69.46,Debit,ACH Transfer,UWCU Savings,
+TXN1247,2023-03-30,Costco,Groceries,179.95,Debit,Cash,Citi CC,
+TXN1389,2023-03-31,MG&E Electric,Utilities,122.05,Debit,Debit Card,UWCU Savings,
+TXN1118,2023-04-01,Uber,Transport,11.13,Debit,Cash,Citi CC,routine
+TXN1403,2023-04-04,Netflix,Entertainment,15.21,Debit,Credit Card,UWCU Savings,
+TXN1397,2023-04-06,Apartment Rent Peoria,Rent,631.74,Debit,ACH Transfer,UWCU Checking,reimbursable
+TXN1203,2023-04-07,Best Buy,Shopping,149.45,Debit,Zelle,UWCU Savings,
+TXN1340,2023-04-08,State Farm Auto,Insurance,124.6,Debit,Zelle,BofA CC,
+TXN1371,2023-04-10,AT&T Wireless,Utilities,64.57,Debit,ACH Transfer,UWCU Checking,routine
+TXN1031,2023-04-11,Pick 'n Save,Groceries,70.98,Debit,Credit Card,UWCU Savings,
+TXN1367,2023-04-11,McDonald's,Dining,10.48,Debit,Zelle,Citi CC,
+TXN1098,2023-04-13,Tax Refund,Income,336.49,Credit,Debit Card,Discover CC,
+TXN1491,2023-04-14,Interest Income,Income,13.44,Credit,Cash,Discover CC,
+TXN1444,2023-04-15,Caterpillar Payroll,Income,3236.44,Credit,Credit Card,UWCU Savings,
+TXN1467,2023-04-17,LinkedIn Premium,Subscriptions,36.66,Debit,Credit Card,UWCU Savings,
+TXN1018,2023-04-19,State Farm Renters,Insurance,21.37,Debit,Zelle,Citi CC,
+TXN1017,2023-04-25,BP Gas,Transport,48.15,Debit,ACH Transfer,Citi CC,
+TXN1241,2023-04-27,Trader Joe's,Groceries,59.94,Debit,Cash,Citi CC,
+TXN1149,2023-04-28,CVS Pharmacy,Healthcare,24.15,Debit,Debit Card,BofA CC,
+TXN1024,2023-05-04,Chipotle,Dining,12.7,Debit,Zelle,Citi CC,
+TXN1260,2023-05-06,Panera Bread,Dining,8.99,Debit,Credit Card,Discover CC,
+TXN1447,2023-05-06,Costco,Groceries,66.08,Debit,Zelle,BofA CC,reimbursable
+TXN1100,2023-05-10,Steam,Entertainment,10.64,Debit,Credit Card,Citi CC,
+TXN1077,2023-05-11,UWCU Transfer,Transfer,56.74,Debit,Cash,Citi CC,
+TXN1250,2023-05-13,MG&E Electric,Utilities,126.51,Debit,Zelle,UWCU Savings,
+TXN1046,2023-05-14,Walmart,Shopping,37.12,Debit,Cash,Citi CC,
+TXN1437,2023-05-14,Starbucks,Dining,10.96,Debit,Cash,Discover CC,
+TXN1039,2023-05-15,AMC Theater,Entertainment,20.23,Debit,Credit Card,UWCU Checking,
+TXN1436,2023-05-17,Best Buy,Shopping,76.19,Debit,Zelle,UWCU Checking,
+TXN1043,2023-05-18,Chipotle,Dining,15.94,Debit,Debit Card,Discover CC,
+TXN1229,2023-05-19,Costco,Groceries,64.44,Debit,Debit Card,UWCU Checking,routine
+TXN1243,2023-05-19,Tax Refund,Income,303.59,Credit,Cash,UWCU Checking,one-time
+TXN1393,2023-05-19,BofA CC Payment,Transfer,467.51,Debit,ACH Transfer,UWCU Savings,monthly
+TXN1208,2023-05-21,Starbucks,Dining,10.91,Debit,Credit Card,Citi CC,
+TXN1284,2023-05-21,Pick 'n Save,Groceries,38.16,Debit,Credit Card,Citi CC,
+TXN1286,2023-05-21,Pick 'n Save,Groceries,78.79,Debit,Debit Card,BofA CC,
+TXN1332,2023-05-21,Caterpillar Payroll,Income,3220.39,Credit,Debit Card,UWCU Checking,
+TXN1014,2023-05-22,CVS Pharmacy,Healthcare,64.13,Debit,Credit Card,UWCU Savings,
+TXN1072,2023-05-22,Local Bistro,Dining,44.29,Debit,Debit Card,UWCU Checking,
+TXN1344,2023-05-24,Interest Income,Income,11.41,Credit,Zelle,Discover CC,
+TXN1380,2023-05-25,Vision Works,Healthcare,151.57,Debit,Zelle,BofA CC,
+TXN1219,2023-05-30,Aldi,Groceries,65.87,Debit,Cash,UWCU Savings,reimbursable
+TXN1066,2023-06-01,Netflix,Entertainment,15.89,Debit,Credit Card,BofA CC,
+TXN1161,2023-06-01,Interest Income,Income,2.04,Credit,Debit Card,UWCU Savings,
+TXN1461,2023-06-01,Target,Shopping,97.44,Debit,Zelle,Discover CC,one-time
+TXN1490,2023-06-01,TJ Maxx,Shopping,73.09,Debit,Credit Card,UWCU Checking,
+TXN1270,2023-06-02,TJ Maxx,Shopping,29.78,Debit,Zelle,Discover CC,
+TXN1336,2023-06-02,McDonald's,Dining,9.16,Debit,ACH Transfer,Discover CC,routine
+TXN1426,2023-06-03,Chipotle,Dining,14.42,Debit,Cash,UWCU Savings,
+TXN1195,2023-06-04,AT&T Wireless,Utilities,68.27,Debit,ACH Transfer,Discover CC,
+TXN1082,2023-06-06,Local Bistro,Dining,43.43,Debit,Zelle,UWCU Savings,
+TXN1193,2023-06-06,Apartment Rent Madison,Rent,908.86,Debit,Cash,BofA CC,
+TXN1311,2023-06-08,Shell Gas,Transport,36.29,Debit,Cash,Citi CC,routine
+TXN1004,2023-06-09,Starbucks,Dining,5.72,Debit,Cash,UWCU Checking,
+TXN1463,2023-06-11,Apartment Rent Peoria,Rent,639.59,Debit,Cash,Discover CC,
+TXN1498,2023-06-12,Pick 'n Save,Groceries,47.19,Debit,Zelle,Citi CC,
+TXN1262,2023-06-13,Vision Works,Healthcare,139.85,Debit,ACH Transfer,BofA CC,
+TXN1117,2023-06-14,Lyft,Transport,15.76,Debit,Cash,Citi CC,
+TXN1216,2023-06-14,McDonald's,Dining,6.88,Debit,Cash,UWCU Checking,monthly
+TXN1214,2023-06-15,Interest Income,Income,3.8,Credit,ACH Transfer,UWCU Checking,
+TXN1251,2023-06-15,BP Gas,Transport,43.84,Debit,Zelle,Discover CC,one-time
+TXN1050,2023-06-16,Discover Payment,Transfer,711.06,Debit,Credit Card,UWCU Savings,one-time
+TXN1303,2023-06-18,EZ Pass Toll,Transport,4.65,Debit,Debit Card,Citi CC,
+TXN1439,2023-06-18,Spectrum Internet,Utilities,59.07,Debit,Zelle,Discover CC,monthly
+TXN1191,2023-06-22,Whole Foods,Groceries,84.8,Debit,Debit Card,Discover CC,
+TXN1392,2023-06-22,Uber,Transport,15.81,Debit,ACH Transfer,Citi CC,routine
+TXN1479,2023-06-24,Netflix,Entertainment,15.47,Debit,Credit Card,Discover CC,reimbursable
+TXN1162,2023-06-28,Whole Foods,Groceries,54.89,Debit,ACH Transfer,UWCU Savings,
+TXN1115,2023-06-29,Vision Works,Healthcare,189.93,Debit,Debit Card,Citi CC,
+TXN1289,2023-06-29,WE Energies,Utilities,115.37,Debit,Credit Card,BofA CC,monthly
+TXN1088,2023-06-30,Apartment Rent Peoria,Rent,630.8,Debit,Zelle,BofA CC,
+TXN1137,2023-07-04,Chipotle,Dining,14.88,Debit,Cash,Citi CC,
+TXN1234,2023-07-04,Walmart,Shopping,32.69,Debit,ACH Transfer,Discover CC,
+TXN1295,2023-07-09,BofA CC Payment,Transfer,229.44,Debit,Debit Card,UWCU Checking,
+TXN1374,2023-07-10,Steam,Entertainment,26.76,Debit,Zelle,UWCU Savings,
+TXN1351,2023-07-11,AT&T Wireless,Utilities,58.1,Debit,Credit Card,Discover CC,
+TXN1458,2023-07-12,Tax Refund,Income,525.27,Credit,Debit Card,BofA CC,
+TXN1497,2023-07-12,AT&T Wireless,Utilities,77.23,Debit,Zelle,Discover CC,
+TXN1292,2023-07-17,Tax Refund,Income,297.5,Credit,Cash,Discover CC,routine
+TXN1499,2023-07-17,State Farm Auto,Insurance,136.74,Debit,Debit Card,UWCU Checking,
+TXN1266,2023-07-19,Uber,Transport,9.99,Debit,Zelle,BofA CC,one-time
+TXN1383,2023-07-19,Interest Income,Income,8.57,Credit,Cash,BofA CC,
+TXN1356,2023-07-20,Walgreens,Healthcare,25.23,Debit,Cash,Discover CC,reimbursable
+TXN1252,2023-07-21,TJ Maxx,Shopping,39.21,Debit,ACH Transfer,Citi CC,
+TXN1064,2023-07-23,Whole Foods,Groceries,63.36,Debit,Cash,Citi CC,routine
+TXN1451,2023-07-24,Nintendo eShop,Entertainment,24.95,Debit,Zelle,UWCU Checking,one-time
+TXN1147,2023-07-25,Pick 'n Save,Groceries,73.21,Debit,ACH Transfer,Citi CC,
+TXN1430,2023-07-25,Uber,Transport,27.97,Debit,Debit Card,BofA CC,
+TXN1160,2023-07-30,Pick 'n Save,Groceries,36.39,Debit,Debit Card,UWCU Savings,
+TXN1391,2023-07-31,Caterpillar Payroll,Income,3371.02,Credit,Zelle,Discover CC,
+TXN1106,2023-08-01,Walmart,Shopping,74.53,Debit,Debit Card,UWCU Savings,
+TXN1469,2023-08-03,Chipotle,Dining,12.8,Debit,Credit Card,UWCU Checking,
+TXN1044,2023-08-04,Apartment Rent Madison,Rent,934.37,Debit,ACH Transfer,Citi CC,
+TXN1091,2023-08-06,Uber,Transport,17.19,Debit,Zelle,Discover CC,
+TXN1323,2023-08-11,UW Health Copay,Healthcare,32.58,Debit,Credit Card,UWCU Savings,routine
+TXN1398,2023-08-12,Discover Payment,Transfer,421.04,Debit,ACH Transfer,Discover CC,
+TXN1076,2023-08-13,Local Bistro,Dining,21.02,Debit,ACH Transfer,BofA CC,reimbursable
+TXN1299,2023-08-13,ChatGPT Plus,Subscriptions,20.15,Debit,Zelle,Discover CC,
+TXN1025,2023-08-14,Whole Foods,Groceries,62.17,Debit,Credit Card,Discover CC,
+TXN1385,2023-08-14,Uber,Transport,14.07,Debit,ACH Transfer,UWCU Savings,
+TXN1368,2023-08-15,AT&T Wireless,Utilities,68.89,Debit,Zelle,Citi CC,
+TXN1081,2023-08-18,Netflix,Entertainment,15.75,Debit,Debit Card,UWCU Savings,
+TXN1110,2023-08-19,AMC Theater,Entertainment,26.88,Debit,Credit Card,UWCU Checking,
+TXN1319,2023-08-19,BP Gas,Transport,62.23,Debit,Credit Card,Citi CC,
+TXN1053,2023-08-22,Panda Express,Dining,10.35,Debit,ACH Transfer,Discover CC,one-time
+TXN1170,2023-08-22,AT&T Wireless,Utilities,66.96,Debit,Credit Card,Discover CC,
+TXN1096,2023-08-25,Trader Joe's,Groceries,48.93,Debit,Zelle,UWCU Savings,
+TXN1108,2023-08-26,Uber,Transport,26.98,Debit,Cash,UWCU Checking,
+TXN1285,2023-08-27,Costco,Groceries,99.64,Debit,Cash,UWCU Checking,
+TXN1157,2023-08-30,Caterpillar Payroll,Income,3494.28,Credit,ACH Transfer,Citi CC,one-time
+TXN1296,2023-08-30,Spectrum Internet,Utilities,64.54,Debit,ACH Transfer,Citi CC,routine
+TXN1026,2023-09-01,Lyft,Transport,14.28,Debit,Debit Card,Citi CC,
+TXN1211,2023-09-01,UWCU Transfer,Transfer,121.23,Debit,Cash,UWCU Savings,
+TXN1222,2023-09-02,AT&T Wireless,Utilities,56.88,Debit,Cash,Citi CC,
+TXN1419,2023-09-02,Whole Foods,Groceries,114.35,Debit,Credit Card,BofA CC,
+TXN1093,2023-09-04,Steam,Entertainment,29.65,Debit,Credit Card,UWCU Checking,
+TXN1312,2023-09-04,Chipotle,Dining,14.75,Debit,Cash,Citi CC,
+TXN1455,2023-09-04,Panda Express,Dining,9.39,Debit,Debit Card,Citi CC,reimbursable
+TXN1027,2023-09-06,Tax Refund,Income,314.25,Credit,Credit Card,BofA CC,
+TXN1124,2023-09-07,Walgreens,Healthcare,29.18,Debit,Zelle,Citi CC,monthly
+TXN1070,2023-09-11,Tax Refund,Income,659.49,Credit,Zelle,BofA CC,
+TXN1442,2023-09-12,BofA CC Payment,Transfer,305.38,Debit,ACH Transfer,Discover CC,monthly
+TXN1049,2023-09-13,AMC Theater,Entertainment,26.04,Debit,Cash,Citi CC,monthly
+TXN1394,2023-09-13,Aldi,Groceries,61.42,Debit,Cash,BofA CC,
+TXN1402,2023-09-14,Trader Joe's,Groceries,33.11,Debit,ACH Transfer,UWCU Savings,
+TXN1080,2023-09-16,Tax Refund,Income,211.63,Credit,Zelle,UWCU Checking,one-time
+TXN1083,2023-09-20,Caterpillar Payroll,Income,3381.77,Credit,Credit Card,UWCU Savings,routine
+TXN1242,2023-09-24,Spotify,Entertainment,11.0,Debit,ACH Transfer,BofA CC,
+TXN1055,2023-09-25,Starbucks,Dining,5.27,Debit,Zelle,BofA CC,
+TXN1297,2023-09-25,Spotify,Entertainment,10.06,Debit,Credit Card,BofA CC,
+TXN1013,2023-09-27,Apartment Rent Peoria,Rent,644.89,Debit,Cash,Discover CC,
+TXN1109,2023-09-28,Interest Income,Income,9.67,Credit,Debit Card,BofA CC,
+TXN1265,2023-09-28,Apartment Rent Peoria,Rent,618.3,Debit,Cash,UWCU Checking,
+TXN1132,2023-09-29,Lyft,Transport,23.0,Debit,ACH Transfer,Citi CC,
+TXN1354,2023-10-03,Lyft,Transport,12.92,Debit,Debit Card,BofA CC,
+TXN1482,2023-10-03,Target,Shopping,95.22,Debit,Credit Card,UWCU Checking,
+TXN1453,2023-10-04,Starbucks,Dining,9.18,Debit,Credit Card,Discover CC,
+TXN1438,2023-10-06,Panera Bread,Dining,8.95,Debit,Zelle,UWCU Checking,
+TXN1148,2023-10-07,Tax Refund,Income,748.43,Credit,Cash,Discover CC,one-time
+TXN1071,2023-10-09,Spectrum Internet,Utilities,57.34,Debit,ACH Transfer,Discover CC,routine
+TXN1008,2023-10-12,UW Health Copay,Healthcare,29.07,Debit,ACH Transfer,UWCU Savings,
+TXN1396,2023-10-12,AMC Theater,Entertainment,20.18,Debit,Cash,Discover CC,
+TXN1202,2023-10-17,Spectrum Internet,Utilities,61.79,Debit,Credit Card,Discover CC,
+TXN1291,2023-10-19,Vision Works,Healthcare,186.71,Debit,Debit Card,Citi CC,
+TXN1197,2023-10-21,Whole Foods,Groceries,91.13,Debit,Zelle,BofA CC,
+TXN1335,2023-10-21,Costco,Groceries,156.74,Debit,Debit Card,UWCU Checking,
+TXN1290,2023-10-24,State Farm Auto,Insurance,125.97,Debit,Zelle,UWCU Checking,one-time
+TXN1478,2023-10-29,Interest Income,Income,9.8,Credit,Debit Card,UWCU Checking,
+TXN1034,2023-10-31,Chipotle,Dining,14.63,Debit,Zelle,UWCU Checking,routine
+TXN1126,2023-11-02,Interest Income,Income,14.99,Credit,Cash,UWCU Savings,
+TXN1280,2023-11-02,Starbucks,Dining,10.4,Debit,Debit Card,BofA CC,
+TXN1310,2023-11-02,Vision Works,Healthcare,143.83,Debit,Debit Card,UWCU Savings,
+TXN1355,2023-11-03,CVS Pharmacy,Healthcare,38.47,Debit,Debit Card,BofA CC,
+TXN1316,2023-11-04,EZ Pass Toll,Transport,7.69,Debit,Debit Card,BofA CC,
+TXN1141,2023-11-06,Local Bistro,Dining,49.87,Debit,Credit Card,UWCU Savings,
+TXN1112,2023-11-08,AMC Theater,Entertainment,21.01,Debit,Cash,BofA CC,
+TXN1111,2023-11-11,TJ Maxx,Shopping,84.48,Debit,Cash,UWCU Checking,
+TXN1465,2023-11-11,Apartment Rent Peoria,Rent,606.37,Debit,Credit Card,Citi CC,
+TXN1212,2023-11-13,BofA CC Payment,Transfer,461.59,Debit,Debit Card,Discover CC,
+TXN1327,2023-11-17,WE Energies,Utilities,101.89,Debit,Credit Card,Discover CC,
+TXN1056,2023-11-18,MG&E Electric,Utilities,90.82,Debit,Zelle,UWCU Savings,
+TXN1276,2023-11-18,AT&T Wireless,Utilities,75.72,Debit,Cash,Citi CC,reimbursable
+TXN1278,2023-11-18,ChatGPT Plus,Subscriptions,20.91,Debit,ACH Transfer,Citi CC,
+TXN1342,2023-11-19,Trader Joe's,Groceries,65.22,Debit,Cash,UWCU Checking,
+TXN1382,2023-11-19,Interest Income,Income,2.7,Credit,ACH Transfer,UWCU Checking,
+TXN1230,2023-11-20,Adobe CC,Subscriptions,55.4,Debit,Zelle,BofA CC,
+TXN1133,2023-11-21,Best Buy,Shopping,355.33,Debit,Credit Card,Citi CC,
+TXN1468,2023-11-24,Chipotle,Dining,16.57,Debit,ACH Transfer,BofA CC,
+TXN1199,2023-11-26,TJ Maxx,Shopping,30.56,Debit,Credit Card,BofA CC,
+TXN1325,2023-11-26,Tax Refund,Income,479.75,Credit,ACH Transfer,Discover CC,
+TXN1059,2023-12-01,Spectrum Internet,Utilities,60.54,Debit,Debit Card,BofA CC,
+TXN1346,2023-12-01,Aldi,Groceries,59.18,Debit,Cash,BofA CC,
+TXN1185,2023-12-02,Costco,Groceries,149.64,Debit,Debit Card,UWCU Savings,
+TXN1357,2023-12-04,AT&T Wireless,Utilities,79.46,Debit,Zelle,UWCU Savings,
+TXN1073,2023-12-05,Best Buy,Shopping,71.79,Debit,Cash,BofA CC,
+TXN1293,2023-12-12,Interest Income,Income,10.77,Credit,Debit Card,UWCU Savings,
+TXN1474,2023-12-13,TJ Maxx,Shopping,82.53,Debit,Credit Card,BofA CC,monthly
+TXN1029,2023-12-14,Caterpillar Payroll,Income,3274.6,Credit,Debit Card,Citi CC,
+TXN1268,2023-12-14,Walmart,Shopping,81.62,Debit,Debit Card,Citi CC,
+TXN1473,2023-12-17,Local Bistro,Dining,25.63,Debit,Credit Card,Citi CC,routine
+TXN1200,2023-12-18,Discover Payment,Transfer,428.41,Debit,Debit Card,UWCU Checking,
+TXN1005,2023-12-19,Amazon,Shopping,135.41,Debit,Zelle,UWCU Checking,reimbursable
+TXN1095,2023-12-19,Spectrum Internet,Utilities,58.52,Debit,Cash,Discover CC,
+TXN1140,2023-12-20,BofA CC Payment,Transfer,355.58,Debit,Cash,Discover CC,
+TXN1421,2023-12-22,Walmart,Shopping,37.52,Debit,Debit Card,Discover CC,routine
+TXN1309,2023-12-23,Pick 'n Save,Groceries,46.62,Debit,Debit Card,UWCU Savings,routine
+TXN1370,2023-12-23,Lyft,Transport,25.69,Debit,Zelle,BofA CC,
+TXN1378,2023-12-23,Lyft,Transport,22.35,Debit,ACH Transfer,Citi CC,
+TXN1041,2023-12-24,State Farm Auto,Insurance,127.39,Debit,Debit Card,BofA CC,one-time
+TXN1281,2023-12-24,Walmart,Shopping,46.58,Debit,Zelle,Citi CC,
+TXN1054,2023-12-26,Steam,Entertainment,42.37,Debit,Zelle,Discover CC,routine
+TXN1175,2023-12-27,Pick 'n Save,Groceries,36.7,Debit,Cash,UWCU Savings,one-time
+TXN1196,2023-12-27,UW Health Copay,Healthcare,36.54,Debit,Credit Card,UWCU Checking,
+TXN1224,2023-12-28,Local Bistro,Dining,26.56,Debit,Credit Card,Citi CC,routine
+TXN1236,2023-12-28,Best Buy,Shopping,146.09,Debit,Credit Card,UWCU Checking,
+TXN1456,2023-12-30,LinkedIn Premium,Subscriptions,35.88,Debit,Zelle,Discover CC,one-time
+TXN1136,2024-01-03,BP Gas,Transport,39.77,Debit,Cash,Citi CC,
+TXN1142,2024-01-03,Walmart,Shopping,26.65,Debit,Cash,Discover CC,
+TXN1246,2024-01-05,Walmart,Shopping,60.06,Debit,Zelle,UWCU Savings,
+TXN1245,2024-01-06,CVS Pharmacy,Healthcare,79.03,Debit,Debit Card,UWCU Savings,routine
+TXN1207,2024-01-07,BP Gas,Transport,43.67,Debit,Cash,UWCU Savings,
+TXN1150,2024-01-10,Costco,Groceries,61.67,Debit,Zelle,UWCU Checking,
+TXN1232,2024-01-12,AT&T Wireless,Utilities,77.3,Debit,Cash,Discover CC,reimbursable
+TXN1406,2024-01-12,State Farm Auto,Insurance,127.65,Debit,Debit Card,UWCU Savings,
+TXN1424,2024-01-12,Chipotle,Dining,17.15,Debit,Credit Card,UWCU Savings,routine
+TXN1215,2024-01-16,Amazon,Shopping,132.38,Debit,Zelle,UWCU Checking,
+TXN1019,2024-01-18,Interest Income,Income,14.4,Credit,Zelle,UWCU Checking,
+TXN1337,2024-01-18,ChatGPT Plus,Subscriptions,20.57,Debit,Debit Card,Discover CC,
+TXN1471,2024-01-20,Costco,Groceries,154.65,Debit,Zelle,UWCU Savings,
+TXN1060,2024-01-24,Spotify,Entertainment,10.62,Debit,ACH Transfer,BofA CC,
+TXN1079,2024-01-24,Lyft,Transport,16.54,Debit,Cash,Discover CC,reimbursable
+TXN1481,2024-01-26,Lyft,Transport,10.89,Debit,Cash,BofA CC,
+TXN1052,2024-01-27,State Farm Renters,Insurance,18.89,Debit,Cash,Discover CC,
+TXN1308,2024-01-27,AT&T Wireless,Utilities,66.27,Debit,Zelle,UWCU Savings,
+TXN1409,2024-01-29,Lyft,Transport,16.29,Debit,Debit Card,UWCU Savings,
+TXN1218,2024-01-31,BofA CC Payment,Transfer,189.82,Debit,ACH Transfer,UWCU Checking,one-time
+TXN1226,2024-02-01,BofA CC Payment,Transfer,398.93,Debit,ACH Transfer,UWCU Checking,
+TXN1033,2024-02-04,Local Bistro,Dining,29.98,Debit,Zelle,BofA CC,
+TXN1075,2024-02-04,Tax Refund,Income,522.93,Credit,Zelle,Citi CC,reimbursable
+TXN1263,2024-02-07,Walgreens,Healthcare,20.76,Debit,ACH Transfer,UWCU Checking,
+TXN1360,2024-02-07,EZ Pass Toll,Transport,3.2,Debit,Zelle,UWCU Savings,
+TXN1282,2024-02-09,Caterpillar Payroll,Income,3287.14,Credit,ACH Transfer,UWCU Checking,
+TXN1485,2024-02-09,State Farm Auto,Insurance,130.04,Debit,Zelle,Citi CC,
+TXN1259,2024-02-13,Aldi,Groceries,45.75,Debit,Credit Card,Discover CC,
+TXN1011,2024-02-15,Panera Bread,Dining,14.39,Debit,Zelle,Discover CC,
+TXN1179,2024-02-15,Whole Foods,Groceries,51.88,Debit,Zelle,UWCU Savings,
+TXN1190,2024-02-15,Best Buy,Shopping,354.68,Debit,ACH Transfer,UWCU Savings,
+TXN1445,2024-02-15,Shell Gas,Transport,58.29,Debit,ACH Transfer,UWCU Checking,
+TXN1094,2024-02-19,AMC Theater,Entertainment,23.95,Debit,ACH Transfer,BofA CC,
+TXN1188,2024-02-19,Steam,Entertainment,20.92,Debit,Cash,UWCU Checking,monthly
+TXN1237,2024-02-20,BP Gas,Transport,68.11,Debit,Debit Card,Citi CC,
+TXN1298,2024-02-20,AMC Theater,Entertainment,24.43,Debit,ACH Transfer,Discover CC,
+TXN1318,2024-02-23,Costco,Groceries,82.07,Debit,Zelle,BofA CC,
+TXN1362,2024-02-23,Spotify,Entertainment,10.63,Debit,Debit Card,Discover CC,
+TXN1248,2024-02-24,Caterpillar Payroll,Income,3237.6,Credit,ACH Transfer,UWCU Checking,
+TXN1432,2024-02-24,Pick 'n Save,Groceries,44.05,Debit,Credit Card,Discover CC,
+TXN1028,2024-02-25,CVS Pharmacy,Healthcare,58.77,Debit,Credit Card,UWCU Checking,
+TXN1051,2024-02-26,Interest Income,Income,12.54,Credit,ACH Transfer,UWCU Savings,routine
+TXN1435,2024-02-27,AMC Theater,Entertainment,20.25,Debit,Credit Card,Citi CC,
+TXN1384,2024-03-01,Steam,Entertainment,31.88,Debit,Credit Card,Citi CC,
+TXN1273,2024-03-02,Amazon,Shopping,113.49,Debit,ACH Transfer,Citi CC,
+TXN1320,2024-03-02,Target,Shopping,58.84,Debit,ACH Transfer,UWCU Savings,
+TXN1427,2024-03-02,ChatGPT Plus,Subscriptions,20.27,Debit,Credit Card,Citi CC,
+TXN1261,2024-03-04,Panera Bread,Dining,13.69,Debit,Zelle,Discover CC,
+TXN1030,2024-03-08,Local Bistro,Dining,28.74,Debit,Credit Card,BofA CC,
+TXN1363,2024-03-09,Caterpillar Payroll,Income,3334.72,Credit,Zelle,BofA CC,
+TXN1182,2024-03-10,Vision Works,Healthcare,129.7,Debit,Debit Card,Citi CC,
+TXN1388,2024-03-11,Trader Joe's,Groceries,47.86,Debit,Credit Card,BofA CC,
+TXN1069,2024-03-12,Interest Income,Income,7.8,Credit,Debit Card,BofA CC,
+TXN1166,2024-03-12,Steam,Entertainment,44.18,Debit,Cash,UWCU Checking,one-time
+TXN1375,2024-03-15,WE Energies,Utilities,64.4,Debit,Credit Card,Citi CC,
+TXN1048,2024-03-16,Aldi,Groceries,38.23,Debit,Credit Card,Discover CC,
+TXN1183,2024-03-16,Pick 'n Save,Groceries,51.76,Debit,ACH Transfer,UWCU Checking,
+TXN1345,2024-03-23,Chipotle,Dining,12.72,Debit,Zelle,Citi CC,
+TXN1201,2024-03-24,UWCU Transfer,Transfer,180.69,Debit,Debit Card,Discover CC,
+TXN1238,2024-03-24,Whole Foods,Groceries,62.7,Debit,ACH Transfer,Discover CC,
+TXN1470,2024-03-24,Apartment Rent Madison,Rent,944.23,Debit,Cash,BofA CC,
+TXN1283,2024-03-28,Steam,Entertainment,16.77,Debit,Zelle,Discover CC,one-time
+TXN1496,2024-03-29,Tax Refund,Income,361.65,Credit,Cash,Citi CC,
+TXN1135,2024-03-30,Starbucks,Dining,11.32,Debit,Credit Card,Discover CC,one-time
+TXN1449,2024-04-01,State Farm Auto,Insurance,132.28,Debit,Zelle,UWCU Savings,
+TXN1194,2024-04-04,Nintendo eShop,Entertainment,48.58,Debit,Zelle,Discover CC,one-time
+TXN1220,2024-04-04,Amazon,Shopping,18.14,Debit,Debit Card,UWCU Savings,
+TXN1217,2024-04-06,State Farm Auto,Insurance,128.3,Debit,Cash,Citi CC,
+TXN1440,2024-04-07,Uber,Transport,31.02,Debit,Credit Card,UWCU Savings,one-time
+TXN1155,2024-04-09,EZ Pass Toll,Transport,4.51,Debit,Debit Card,BofA CC,
+TXN1180,2024-04-09,Uber,Transport,16.41,Debit,ACH Transfer,Citi CC,
+TXN1065,2024-04-11,WE Energies,Utilities,100.28,Debit,Cash,BofA CC,
+TXN1333,2024-04-11,EZ Pass Toll,Transport,5.83,Debit,Zelle,BofA CC,
+TXN1131,2024-04-12,Trader Joe's,Groceries,54.6,Debit,Debit Card,UWCU Checking,
+TXN1400,2024-04-15,Trader Joe's,Groceries,56.48,Debit,Credit Card,BofA CC,
+TXN1010,2024-04-18,WE Energies,Utilities,97.92,Debit,Credit Card,UWCU Savings,one-time
+TXN1068,2024-04-20,Nintendo eShop,Entertainment,45.73,Debit,Cash,Citi CC,
+TXN1090,2024-04-20,Best Buy,Shopping,167.74,Debit,Cash,Discover CC,
+TXN1062,2024-04-21,WE Energies,Utilities,85.78,Debit,Debit Card,UWCU Checking,
+TXN1429,2024-04-21,State Farm Renters,Insurance,19.31,Debit,Zelle,BofA CC,
+TXN1152,2024-04-27,Pick 'n Save,Groceries,43.04,Debit,Zelle,UWCU Savings,
+TXN1307,2024-04-28,Costco,Groceries,81.6,Debit,Debit Card,BofA CC,
+TXN1454,2024-04-28,TJ Maxx,Shopping,89.97,Debit,Debit Card,UWCU Checking,
+TXN1129,2024-04-29,Steam,Entertainment,26.23,Debit,Debit Card,BofA CC,monthly
+TXN1494,2024-05-01,ChatGPT Plus,Subscriptions,20.02,Debit,ACH Transfer,Discover CC,
+TXN1287,2024-05-02,Walgreens,Healthcare,47.8,Debit,ACH Transfer,Discover CC,
+TXN1101,2024-05-05,WE Energies,Utilities,117.58,Debit,ACH Transfer,BofA CC,
+TXN1324,2024-05-05,Adobe CC,Subscriptions,55.6,Debit,Debit Card,BofA CC,
+TXN1452,2024-05-06,Best Buy,Shopping,170.41,Debit,Zelle,Citi CC,
+TXN1097,2024-05-10,EZ Pass Toll,Transport,7.86,Debit,Zelle,Citi CC,
+TXN1127,2024-05-10,EZ Pass Toll,Transport,6.58,Debit,Cash,BofA CC,monthly
+TXN1258,2024-05-10,UW Health Copay,Healthcare,40.17,Debit,ACH Transfer,Discover CC,one-time
+TXN1032,2024-05-12,Vision Works,Healthcare,188.29,Debit,Debit Card,BofA CC,
+TXN1492,2024-05-12,Best Buy,Shopping,63.11,Debit,ACH Transfer,BofA CC,
+TXN1381,2024-05-13,Target,Shopping,75.49,Debit,Cash,Discover CC,
+TXN1020,2024-05-15,Aldi,Groceries,63.94,Debit,ACH Transfer,UWCU Savings,
+TXN1480,2024-05-15,State Farm Renters,Insurance,18.36,Debit,Zelle,BofA CC,
+TXN1156,2024-05-16,Walmart,Shopping,27.45,Debit,ACH Transfer,UWCU Savings,
+TXN1377,2024-05-16,Walmart,Shopping,69.77,Debit,Zelle,BofA CC,
+TXN1116,2024-05-18,BofA CC Payment,Transfer,239.18,Debit,ACH Transfer,Discover CC,
+TXN1495,2024-05-18,Interest Income,Income,3.28,Credit,Debit Card,UWCU Savings,
+TXN1431,2024-05-20,Discover Payment,Transfer,599.35,Debit,Zelle,UWCU Savings,
+TXN1264,2024-05-21,Best Buy,Shopping,150.01,Debit,Credit Card,UWCU Checking,
+TXN1386,2024-05-22,Amazon,Shopping,109.5,Debit,ACH Transfer,Citi CC,one-time
+TXN1448,2024-05-23,Costco,Groceries,80.74,Debit,Debit Card,UWCU Savings,
+TXN1138,2024-05-24,LinkedIn Premium,Subscriptions,36.16,Debit,ACH Transfer,BofA CC,
+TXN1120,2024-05-25,Amazon,Shopping,48.59,Debit,Zelle,UWCU Savings,reimbursable
+TXN1123,2024-05-25,ChatGPT Plus,Subscriptions,20.51,Debit,ACH Transfer,BofA CC,reimbursable
+TXN1450,2024-05-25,AT&T Wireless,Utilities,56.83,Debit,ACH Transfer,BofA CC,
+TXN1012,2024-05-26,AT&T Wireless,Utilities,59.29,Debit,Debit Card,UWCU Savings,
+TXN1269,2024-05-27,Whole Foods,Groceries,55.28,Debit,ACH Transfer,BofA CC,
+TXN1130,2024-05-29,BofA CC Payment,Transfer,447.88,Debit,Cash,UWCU Checking,
+TXN1253,2024-05-29,Nintendo eShop,Entertainment,66.5,Debit,Debit Card,UWCU Savings,
+TXN1428,2024-05-29,Netflix,Entertainment,15.18,Debit,Zelle,UWCU Checking,routine
+TXN1036,2024-06-04,Trader Joe's,Groceries,34.11,Debit,Credit Card,UWCU Savings,
+TXN1304,2024-06-06,MG&E Electric,Utilities,96.27,Debit,Zelle,BofA CC,
+TXN1326,2024-06-09,State Farm Renters,Insurance,18.39,Debit,Cash,Discover CC,one-time
+TXN1092,2024-06-13,LinkedIn Premium,Subscriptions,36.21,Debit,Cash,BofA CC,
+TXN1404,2024-06-15,Netflix,Entertainment,15.01,Debit,ACH Transfer,UWCU Checking,reimbursable
+TXN1225,2024-06-22,TJ Maxx,Shopping,58.79,Debit,Cash,BofA CC,
+TXN1099,2024-06-30,Whole Foods,Groceries,118.07,Debit,Zelle,Discover CC,
+TXN1364,2024-07-01,Vision Works,Healthcare,145.24,Debit,ACH Transfer,Citi CC,
+TXN1484,2024-07-02,Steam,Entertainment,36.5,Debit,Debit Card,BofA CC,
+TXN1376,2024-07-03,Starbucks,Dining,6.38,Debit,Credit Card,Discover CC,
+TXN1418,2024-07-03,EZ Pass Toll,Transport,5.81,Debit,Credit Card,Discover CC,
+TXN1417,2024-07-04,Walmart,Shopping,31.27,Debit,Credit Card,Citi CC,monthly
+TXN1483,2024-07-08,WE Energies,Utilities,88.75,Debit,Cash,Citi CC,
+TXN1387,2024-07-09,Caterpillar Payroll,Income,3428.0,Credit,Cash,Citi CC,
+TXN1001,2024-07-12,Costco,Groceries,63.81,Debit,Credit Card,UWCU Savings,
+TXN1228,2024-07-13,BP Gas,Transport,63.22,Debit,Cash,BofA CC,
+TXN1331,2024-07-13,CVS Pharmacy,Healthcare,49.06,Debit,Credit Card,UWCU Checking,reimbursable
+TXN1300,2024-07-16,Adobe CC,Subscriptions,55.8,Debit,Debit Card,UWCU Savings,
+TXN1361,2024-07-17,Costco,Groceries,173.16,Debit,Debit Card,BofA CC,routine
+TXN1122,2024-07-18,Costco,Groceries,71.19,Debit,Credit Card,BofA CC,monthly
+TXN1373,2024-07-19,McDonald's,Dining,8.56,Debit,Cash,UWCU Savings,monthly
+TXN1016,2024-07-20,Caterpillar Payroll,Income,3404.09,Credit,Credit Card,Citi CC,one-time
+TXN1347,2024-07-20,ChatGPT Plus,Subscriptions,20.19,Debit,Zelle,BofA CC,
+TXN1198,2024-07-21,Adobe CC,Subscriptions,55.9,Debit,Cash,Citi CC,
+TXN1176,2024-07-23,Uber,Transport,23.5,Debit,Cash,Citi CC,
+TXN1464,2024-07-29,Nintendo eShop,Entertainment,57.22,Debit,Debit Card,Citi CC,reimbursable
+TXN1040,2024-07-30,Discover Payment,Transfer,453.23,Debit,Zelle,Discover CC,
+TXN1103,2024-07-30,LinkedIn Premium,Subscriptions,39.97,Debit,Credit Card,Citi CC,
+TXN1407,2024-07-30,Trader Joe's,Groceries,56.41,Debit,Debit Card,UWCU Savings,
+TXN1302,2024-07-31,Pick 'n Save,Groceries,74.66,Debit,Debit Card,Citi CC,
+TXN1343,2024-07-31,Local Bistro,Dining,43.7,Debit,Zelle,Discover CC,
+TXN1038,2024-08-01,Walmart,Shopping,40.32,Debit,ACH Transfer,UWCU Savings,
+TXN1021,2024-08-03,LinkedIn Premium,Subscriptions,38.66,Debit,Credit Card,Citi CC,monthly
+TXN1239,2024-08-03,Trader Joe's,Groceries,70.74,Debit,ACH Transfer,Discover CC,
+TXN1466,2024-08-04,Pick 'n Save,Groceries,42.5,Debit,Zelle,UWCU Savings,
+TXN1414,2024-08-05,WE Energies,Utilities,103.39,Debit,Credit Card,UWCU Checking,
+TXN1037,2024-08-06,McDonald's,Dining,6.24,Debit,Credit Card,BofA CC,
+TXN1329,2024-08-06,Tax Refund,Income,530.39,Credit,ACH Transfer,Discover CC,reimbursable
+TXN1213,2024-08-07,BofA CC Payment,Transfer,407.78,Debit,Cash,Citi CC,
+TXN1399,2024-08-14,Costco,Groceries,154.6,Debit,Credit Card,UWCU Checking,
+TXN1084,2024-08-15,Aldi,Groceries,48.79,Debit,Cash,BofA CC,monthly
+TXN1306,2024-08-15,Costco,Groceries,101.34,Debit,Credit Card,Citi CC,routine
+TXN1146,2024-08-16,BP Gas,Transport,33.61,Debit,ACH Transfer,Discover CC,monthly
+TXN1204,2024-08-19,AMC Theater,Entertainment,17.58,Debit,Cash,UWCU Savings,
+TXN1328,2024-08-21,Best Buy,Shopping,153.32,Debit,Debit Card,Discover CC,
+TXN1173,2024-08-23,Adobe CC,Subscriptions,55.33,Debit,Credit Card,BofA CC,
+TXN1105,2024-08-25,BofA CC Payment,Transfer,327.45,Debit,Credit Card,Citi CC,routine
+TXN1003,2024-08-26,Shell Gas,Transport,65.35,Debit,Debit Card,BofA CC,
+TXN1457,2024-08-28,Aldi,Groceries,67.38,Debit,Zelle,UWCU Savings,
+TXN1089,2024-08-29,Panera Bread,Dining,13.82,Debit,Credit Card,Discover CC,monthly
+TXN1413,2024-08-31,Whole Foods,Groceries,119.02,Debit,ACH Transfer,UWCU Savings,
+TXN1104,2024-09-02,Caterpillar Payroll,Income,3432.71,Credit,Cash,BofA CC,one-time
+TXN1301,2024-09-02,State Farm Auto,Insurance,130.51,Debit,Zelle,Discover CC,
+TXN1168,2024-09-03,Best Buy,Shopping,226.94,Debit,Cash,UWCU Checking,routine
+TXN1352,2024-09-03,Walmart,Shopping,89.78,Debit,Credit Card,Discover CC,
+TXN1184,2024-09-05,Trader Joe's,Groceries,48.09,Debit,Debit Card,UWCU Savings,one-time
+TXN1002,2024-09-08,Trader Joe's,Groceries,72.96,Debit,Zelle,BofA CC,
+TXN1235,2024-09-09,Apartment Rent Madison,Rent,934.49,Debit,ACH Transfer,BofA CC,
+TXN1358,2024-09-09,LinkedIn Premium,Subscriptions,37.4,Debit,Debit Card,BofA CC,one-time
+TXN1254,2024-09-11,EZ Pass Toll,Transport,2.25,Debit,Credit Card,UWCU Checking,
+TXN1144,2024-09-13,Caterpillar Payroll,Income,3390.99,Credit,Zelle,Discover CC,
+TXN1475,2024-09-13,State Farm Auto,Insurance,121.07,Debit,ACH Transfer,UWCU Savings,reimbursable
+TXN1167,2024-09-14,Trader Joe's,Groceries,46.5,Debit,Zelle,Citi CC,reimbursable
+TXN1221,2024-09-15,Amazon,Shopping,143.07,Debit,Debit Card,Discover CC,
+TXN1493,2024-09-15,Steam,Entertainment,7.13,Debit,ACH Transfer,UWCU Savings,
+TXN1042,2024-09-18,UWCU Transfer,Transfer,182.24,Debit,Zelle,Discover CC,routine
+TXN1177,2024-09-20,Nintendo eShop,Entertainment,11.58,Debit,ACH Transfer,UWCU Checking,
+TXN1460,2024-09-20,Panera Bread,Dining,10.39,Debit,Debit Card,Discover CC,
+TXN1165,2024-09-21,Pick 'n Save,Groceries,41.59,Debit,Credit Card,UWCU Checking,reimbursable
+TXN1271,2024-09-23,Apartment Rent Peoria,Rent,629.69,Debit,Zelle,Citi CC,
+TXN1189,2024-09-24,UW Health Copay,Healthcare,27.2,Debit,Credit Card,UWCU Savings,
+TXN1348,2024-09-25,BP Gas,Transport,58.52,Debit,Credit Card,Discover CC,
+TXN1486,2024-09-27,Costco,Groceries,80.75,Debit,Debit Card,UWCU Savings,monthly
+TXN1267,2024-09-30,Netflix,Entertainment,15.13,Debit,Credit Card,BofA CC,
+TXN1423,2024-10-04,Costco,Groceries,121.29,Debit,Credit Card,BofA CC,monthly
+TXN1134,2024-10-08,AMC Theater,Entertainment,29.95,Debit,Credit Card,BofA CC,routine
+TXN1223,2024-10-09,Target,Shopping,91.85,Debit,ACH Transfer,BofA CC,
+TXN1395,2024-10-09,Local Bistro,Dining,33.13,Debit,Credit Card,UWCU Checking,
+TXN1153,2024-10-12,Interest Income,Income,5.93,Credit,Cash,UWCU Checking,
+TXN1000,2024-10-16,Aldi,Groceries,32.24,Debit,Debit Card,UWCU Checking,
+TXN1294,2024-10-16,State Farm Renters,Insurance,20.06,Debit,Credit Card,BofA CC,
+TXN1255,2024-10-18,Tax Refund,Income,590.68,Credit,Zelle,BofA CC,
+TXN1159,2024-10-19,Netflix,Entertainment,15.05,Debit,ACH Transfer,UWCU Savings,
+TXN1330,2024-10-19,Apartment Rent Peoria,Rent,608.41,Debit,ACH Transfer,UWCU Savings,
+TXN1192,2024-10-22,Caterpillar Payroll,Income,3230.84,Credit,ACH Transfer,UWCU Savings,
+TXN1412,2024-10-23,Trader Joe's,Groceries,59.69,Debit,Credit Card,UWCU Savings,
+TXN1231,2024-10-24,Starbucks,Dining,11.03,Debit,Credit Card,Discover CC,
+TXN1169,2024-11-01,Nintendo eShop,Entertainment,53.25,Debit,Debit Card,BofA CC,
+TXN1227,2024-11-03,TJ Maxx,Shopping,71.46,Debit,ACH Transfer,UWCU Savings,
+TXN1119,2024-11-04,State Farm Renters,Insurance,19.65,Debit,Debit Card,Citi CC,
+TXN1433,2024-11-04,Spectrum Internet,Utilities,56.04,Debit,Zelle,UWCU Savings,
+TXN1411,2024-11-05,State Farm Auto,Insurance,130.35,Debit,Zelle,UWCU Savings,one-time
+TXN1022,2024-11-06,Walgreens,Healthcare,23.25,Debit,Zelle,BofA CC,
+TXN1145,2024-11-06,Spotify,Entertainment,10.63,Debit,Credit Card,Discover CC,routine
+TXN1058,2024-11-10,Interest Income,Income,13.7,Credit,Zelle,Discover CC,
+TXN1063,2024-11-10,Walmart,Shopping,32.0,Debit,Debit Card,Discover CC,
+TXN1171,2024-11-12,Panera Bread,Dining,12.81,Debit,Cash,UWCU Checking,
+TXN1174,2024-11-12,ChatGPT Plus,Subscriptions,20.87,Debit,Credit Card,Discover CC,
+TXN1244,2024-11-14,Shell Gas,Transport,57.0,Debit,ACH Transfer,Discover CC,monthly
+TXN1151,2024-11-19,Apartment Rent Peoria,Rent,629.23,Debit,ACH Transfer,UWCU Checking,
+TXN1315,2024-11-19,Caterpillar Payroll,Income,3290.53,Credit,Debit Card,Citi CC,
+TXN1379,2024-11-19,Whole Foods,Groceries,62.89,Debit,Credit Card,UWCU Savings,
+TXN1322,2024-11-20,Amazon,Shopping,159.15,Debit,Debit Card,Citi CC,
+TXN1114,2024-11-21,Interest Income,Income,9.63,Credit,Credit Card,Discover CC,
+TXN1015,2024-11-27,MG&E Electric,Utilities,90.78,Debit,Zelle,BofA CC,
+TXN1249,2024-11-27,Target,Shopping,107.8,Debit,Zelle,Citi CC,
+TXN1275,2024-11-28,McDonald's,Dining,11.69,Debit,Credit Card,UWCU Savings,
+TXN1279,2024-11-28,AMC Theater,Entertainment,22.98,Debit,Debit Card,UWCU Savings,
+TXN1206,2024-12-02,State Farm Auto,Insurance,132.92,Debit,Cash,Citi CC,
+TXN1257,2024-12-02,AT&T Wireless,Utilities,57.19,Debit,Credit Card,UWCU Savings,
+TXN1143,2024-12-03,Caterpillar Payroll,Income,3473.19,Credit,Cash,Discover CC,monthly
+TXN1408,2024-12-04,WE Energies,Utilities,56.07,Debit,Credit Card,UWCU Savings,
+TXN1390,2024-12-06,EZ Pass Toll,Transport,5.8,Debit,Debit Card,Citi CC,
+TXN1401,2024-12-06,State Farm Renters,Insurance,18.64,Debit,ACH Transfer,UWCU Checking,
+TXN1023,2024-12-07,Starbucks,Dining,7.79,Debit,ACH Transfer,BofA CC,reimbursable
+TXN1233,2024-12-09,UW Health Copay,Healthcare,45.03,Debit,Cash,UWCU Checking,
+TXN1210,2024-12-10,Caterpillar Payroll,Income,3416.35,Credit,Credit Card,BofA CC,
+TXN1405,2024-12-11,Whole Foods,Groceries,62.17,Debit,Credit Card,UWCU Checking,
+TXN1359,2024-12-12,TJ Maxx,Shopping,74.74,Debit,ACH Transfer,BofA CC,
+TXN1067,2024-12-13,Amazon,Shopping,106.97,Debit,Credit Card,BofA CC,
+TXN1074,2024-12-13,Pick 'n Save,Groceries,45.92,Debit,Credit Card,Discover CC,
+TXN1476,2024-12-14,TJ Maxx,Shopping,38.57,Debit,ACH Transfer,Discover CC,
+TXN1128,2024-12-15,Local Bistro,Dining,28.17,Debit,Cash,UWCU Checking,
+TXN1121,2024-12-16,CVS Pharmacy,Healthcare,78.25,Debit,Zelle,UWCU Savings,one-time
+TXN1009,2024-12-19,Adobe CC,Subscriptions,55.07,Debit,Debit Card,Citi CC,monthly
+TXN1178,2024-12-20,Apartment Rent Peoria,Rent,617.55,Debit,Debit Card,UWCU Savings,
+TXN1186,2024-12-21,McDonald's,Dining,11.0,Debit,ACH Transfer,UWCU Checking,
+TXN1441,2024-12-22,Netflix,Entertainment,15.22,Debit,ACH Transfer,UWCU Savings,
+TXN1462,2024-12-22,ChatGPT Plus,Subscriptions,20.59,Debit,ACH Transfer,Discover CC,
+TXN1057,2024-12-26,WE Energies,Utilities,75.5,Debit,Credit Card,Discover CC,
+TXN1272,2024-12-26,Best Buy,Shopping,335.51,Debit,ACH Transfer,Discover CC,
+TXN1349,2024-12-29,Caterpillar Payroll,Income,3421.9,Credit,ACH Transfer,Discover CC,
+TXN1416,2024-12-30,Vision Works,Healthcare,130.83,Debit,Cash,UWCU Checking,

@@ -1,0 +1,42 @@
+name: 'finance_analytics'
+version: '1.0.0'
+config-version: 2
+
+profile: 'finance_analytics'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+analysis-paths: ["analyses"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  finance_analytics:
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: view
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts
+
+seeds:
+  finance_analytics:
+    raw_transactions:
+      +column_types:
+        transaction_id: varchar
+        transaction_date: varchar
+        merchant_name: varchar
+        category: varchar
+        amount: double
+        transaction_type: varchar
+        payment_method: varchar
+        account_name: varchar
+        notes: varchar

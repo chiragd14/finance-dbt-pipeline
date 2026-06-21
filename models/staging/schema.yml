@@ -1,0 +1,144 @@
+# models/staging/schema.yml
+# ============================================================
+# Source definition and model-level tests for the staging layer.
+# Run with: dbt test --select staging
+# ============================================================
+
+version: 2
+
+sources:
+  - name: main      # matches the seed schema
+    description: >
+      Raw personal finance transaction data loaded from CSV via dbt seed.
+      Covers 2023–2024. One row per transaction.
+    tables:
+      - name: raw_transactions
+        description: "500-row synthetic personal finance transaction ledger."
+        columns:
+          - name: transaction_id
+            description: "Unique transaction identifier. Format: TXNxxxx."
+            tests:
+              - not_null
+              - unique
+          - name: transaction_date
+            description: "ISO date of the transaction (YYYY-MM-DD)."
+            tests:
+              - not_null
+          - name: amount
+            description: "Absolute monetary value in USD. Always positive in source."
+            tests:
+              - not_null
+          - name: transaction_type
+            description: "Credit (income) or Debit (expense)."
+            tests:
+              - not_null
+              - accepted_values:
+                  arguments:
+                    values: ['Credit','Debit','CREDIT', 'DEBIT']
+
+models:
+  - name: stg_transactions
+    description: >
+      Cleaned and standardised transaction ledger. Adds signed amount logic,
+      date-part columns, and null-safe text fields. No business logic.
+      Materialised as a view.
+    columns:
+      - name: transaction_id
+        description: "Primary key — carried from source unchanged."
+        tests:
+          - not_null
+          - unique
+
+      - name: transaction_date
+        description: "Cast to DATE type."
+        tests:
+          - not_null
+
+      - name: transaction_year
+        description: "Calendar year (integer)."
+        tests:
+          - not_null
+
+      - name: transaction_month
+        description: "Calendar month 1–12 (integer)."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [1,2,3,4,5,6,7,8,9,10,11,12]
+
+      - name: transaction_quarter
+        description: "Calendar quarter 1–4 (integer)."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [1,2,3,4]
+
+      - name: year_month
+        description: "YYYY-MM string for time-series grouping."
+        tests:
+          - not_null
+
+      - name: merchant_name
+        description: "Trimmed merchant name."
+        tests:
+          - not_null
+
+      - name: category
+        description: "Spending category assigned at source."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - Groceries
+                  - Dining
+                  - Transport
+                  - Utilities
+                  - Healthcare
+                  - Shopping
+                  - Entertainment
+                  - Rent
+                  - Income
+                  - Insurance
+                  - Subscriptions
+                  - Transfer
+
+      - name: amount_signed
+        description: >
+          Signed amount: positive for income (Credit), negative for expenses (Debit).
+          Summing this column gives net cashflow.
+        tests:
+          - not_null
+
+      - name: amount_abs
+        description: "Absolute monetary value — always positive."
+        tests:
+          - not_null
+
+      - name: transaction_type
+        description: "Uppercased: CREDIT or DEBIT."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Credit','Debit','CREDIT', 'DEBIT']
+
+      - name: payment_method
+        description: "Trimmed payment method string."
+        tests:
+          - not_null
+
+      - name: account_name
+        description: "Trimmed account name."
+        tests:
+          - not_null
+
+      - name: notes
+        description: "Optional free-text notes. NULL when blank."
+
+      - name: is_uncategorised
+        description: "Boolean flag — TRUE if category is null or empty at source."
+        tests:
+          - not_null

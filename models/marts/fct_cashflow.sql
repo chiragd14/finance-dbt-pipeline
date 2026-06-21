@@ -1,0 +1,33 @@
+-- models/marts/fct_cashflow.sql
+-- ============================================================
+-- Fact table: monthly cashflow (income vs expense)
+-- Grain  : 1 row per year_month
+-- Depends: int_transactions_enriched
+-- Purpose: Power BI cashflow trend line. Week 4 deliverable.
+-- ============================================================
+
+-- TODO (Week 4):
+-- with base as (
+--     select * from {{ ref('int_transactions_enriched') }}
+--     where spend_bucket != 'Transfer'
+-- ),
+-- monthly as (
+--     select
+--         year_month,
+--         transaction_year,
+--         transaction_month,
+--         sum(case when is_income then amount_abs else 0 end)    as total_income,
+--         sum(case when not is_income then amount_abs else 0 end) as total_expenses,
+--         sum(amount_signed)                                     as net_cashflow
+--     from base
+--     group by 1,2,3
+-- )
+-- select
+--     *,
+--     sum(net_cashflow) over (
+--         order by year_month
+--         rows between unbounded preceding and current row
+--     ) as cumulative_cashflow
+-- from monthly
+
+select 1 as placeholder  -- remove when Week 4 work begins
