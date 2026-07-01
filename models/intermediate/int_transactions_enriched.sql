@@ -37,7 +37,16 @@ enriched as (
             when category in ('Transfer')                                 then 'Transfer'
             when category in ('Rent','Utilities','Insurance','Healthcare') then 'Essential'
             else                                                               'Discretionary'
-        end as spend_bucket
+        end as spend_bucket,
+
+        -- add month_rank window column
+         row_number() over (
+            partition by year_month
+            order by transaction_date asc
+        ) as month_rank
+       
+
+
 
     from base
 

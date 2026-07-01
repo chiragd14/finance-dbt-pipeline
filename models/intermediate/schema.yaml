@@ -1,0 +1,29 @@
+
+version: 1
+
+models:
+  - name: int_transactions_enriched
+    description: >
+      Enriched transaction ledger. Adds spend_bucket and month_rank columns.
+      Materialised as a view.
+    columns:
+      - name : transaction_id
+        description: "Primary key — carried from source unchanged."
+        tests:
+          - not_null
+          - unique
+      - name: is_income
+        description: "Boolean flag for income transactions."
+        tests:
+          - not_null
+      - name: spend_bucket
+        description: "Categorical spend bucket for expenses."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Income','Transfer','Essential','Discretionary']
+      - name: month_rank
+        description: "Rank of transaction within the month."
+        tests:
+          - not_null
