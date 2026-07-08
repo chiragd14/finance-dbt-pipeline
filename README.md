@@ -45,7 +45,7 @@ pip install dbt-duckdb
 ### Clone and run
 
 ```bash
-git clone https://github.com/<your-handle>/finance-dbt-pipeline.git
+git clone https://github.com/chiragd14/finance-dbt-pipeline.git
 cd finance-dbt-pipeline
 
 # Copy profiles.yml to ~/.dbt/ or keep it local with --profiles-dir flag
