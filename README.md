@@ -98,4 +98,4 @@ Synthetic 500-row personal finance transaction ledger covering Jan 2023 – Dec 
 ## Author
 
 **Chirag Dave** — BI Analyst | Power BI · dbt · Snowflake · SQL  
-[LinkedIn](https://www.linkedin.com/in/davechiragk) · [GitHub](https://github.com/<your-handle>)
+[LinkedIn](https://www.linkedin.com/in/davechiragk) · [GitHub](https://github.com/chiragd14)
